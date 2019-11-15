@@ -4,10 +4,10 @@ node_js:
   - "node"
 install:
   - PowerShell -Command 'Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine'
-  - PowerShell -File init.ps1
+  - PowerShell -Command '.\init.ps1;Install-Dependencies'
 jobs:
   include:
     - stage: build
-      script: Build-Web
+      script: PowerShell -Command '.\init.ps1;Build-Web'
     - stage: test
-      script: Test-Web
+      script: PowerShell -Command '.\init.ps1;Test-Web'

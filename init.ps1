@@ -1,9 +1,10 @@
 $Env:WEB = $PSScriptRoot + "\web"
 
-# Install npm dependencies
-Push-Location $Env:WEB
-npm i
-Pop-Location
+function Install-Dependencies {
+    Push-Location $Env:WEB
+    npm i
+    Pop-Location
+}
 
 # Import the module with "generate" functions
 gci -Recurse .\build -Filter *.psm1 | % {
