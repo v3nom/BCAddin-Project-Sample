@@ -1,5 +1,5 @@
 $webProjectPath = $PSScriptRoot + "\..\web"
 
 Push-Location $webProjectPath
-npx webpack
+npm i
 Pop-Location

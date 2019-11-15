@@ -2,6 +2,8 @@ os: windows
 language: node_js
 node_js:  
   - "node"
+install:
+  - .\build\install_deps.ps1
 jobs:
   include:
     - stage: build
