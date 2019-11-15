@@ -62,6 +62,6 @@ typings/
 
 # AL
 .alpackages
-.app
+app/*.app
 app/Scripts/bundle.js
 .vscode
