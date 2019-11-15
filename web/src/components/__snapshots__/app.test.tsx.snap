@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component test suite Render with success message 1`] = `
+<div
+  className="ms-Fabric root-40"
+>
+  <div
+    style={
+      Object {
+        "background": "#ffffff",
+      }
+    }
+  >
+    <div
+      className="ms-MessageBar ms-MessageBar--success ms-MessageBar-multiline root-59"
+    >
+      <div
+        className="ms-MessageBar-content content-60"
+      >
+        <div
+          aria-hidden={true}
+          className="ms-MessageBar-icon iconContainer-61"
+        >
+          <i
+            aria-hidden={true}
+            className="icon-70"
+            data-icon-name="Completed"
+          />
+        </div>
+        <div
+          aria-live="polite"
+          className="ms-MessageBar-text text-63"
+          id="MessageBar6"
+          role="status"
+        >
+          <span
+            className="ms-MessageBar-innerText innerText-64"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ms-TextField root-42"
+  >
+    <div
+      className="ms-TextField-wrapper wrapper-43"
+    >
+      <div
+        className="ms-TextField-fieldGroup fieldGroup-44"
+      >
+        <input
+          aria-invalid={false}
+          autoComplete="off"
+          className="ms-TextField-field field-45"
+          id="TextField7"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          placeholder="Enter your value"
+          type="text"
+          value="Value accepted"
+        />
+      </div>
+    </div>
+  </div>
+  <button
+    className="ms-Button ms-Button--default root-51"
+    data-is-focusable={true}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onKeyPress={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseUp={[Function]}
+    type="button"
+  >
+    <span
+      className="ms-Button-flexContainer flexContainer-52"
+      data-automationid="splitbuttonprimary"
+    >
+      <span
+        className="ms-Button-textContainer textContainer-53"
+      >
+        <span
+          className="ms-Button-label label-55"
+          id="id__10"
+        >
+          Submit
+        </span>
+      </span>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`App Component test suite Render without success message 1`] = `
+<div
+  className="ms-Fabric root-40"
+>
+  <div
+    className="ms-TextField root-42"
+  >
+    <div
+      className="ms-TextField-wrapper wrapper-43"
+    >
+      <div
+        className="ms-TextField-fieldGroup fieldGroup-44"
+      >
+        <input
+          aria-invalid={false}
+          autoComplete="off"
+          className="ms-TextField-field field-45"
+          id="TextField0"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onInput={[Function]}
+          placeholder="Enter your value"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <button
+    className="ms-Button ms-Button--default root-51"
+    data-is-focusable={true}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onKeyPress={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseUp={[Function]}
+    type="button"
+  >
+    <span
+      className="ms-Button-flexContainer flexContainer-52"
+      data-automationid="splitbuttonprimary"
+    >
+      <span
+        className="ms-Button-textContainer textContainer-53"
+      >
+        <span
+          className="ms-Button-label label-55"
+          id="id__3"
+        >
+          Submit
+        </span>
+      </span>
+    </span>
+  </button>
+</div>
+`;

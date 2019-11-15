@@ -1,0 +1,10 @@
+os: windows
+language: node_js
+node_js:  
+  - "node"
+jobs:
+  include:
+    - stage: build
+      script: ./build/build_web.ps1
+    - stage: test
+      script: ./build/test_web.ps1

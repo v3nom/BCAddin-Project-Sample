@@ -1,0 +1,29 @@
+{
+  "name": "bcaddin",
+  "version": "1.0.0",
+  "description": "Basic Business Central client add-in with React, Office Fabric and TypeScript",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Tomas Grubliauskas",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-test-renderer": "^16.9.1",
+    "@uifabric/icons": "^7.3.0",
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.12.0",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "office-ui-fabric-react": "^7.59.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}

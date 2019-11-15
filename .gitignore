@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# AL
+.alpackages
+.app
+app/Scripts/bundle.js
+.vscode
