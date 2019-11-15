@@ -3,10 +3,10 @@ language: node_js
 node_js:  
   - "node"
 install:
-  - .\build\install_deps.ps1
+  - PowerShell -File init.ps1
 jobs:
   include:
     - stage: build
-      script: .\build\build_web.ps1
+      script: Build-Web
     - stage: test
-      script: .\build\test_web.ps1
+      script: Test-Web
