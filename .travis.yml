@@ -3,6 +3,7 @@ language: node_js
 node_js:  
   - "node"
 install:
+  - PowerShell -Command 'Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine'
   - PowerShell -File init.ps1
 jobs:
   include:
